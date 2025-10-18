@@ -265,7 +265,7 @@ def pro_sed_4():
     plt.plot(np.log10(wl), pha, 'g--', label='Accretion')
     
     plt.xlabel('log Wavelength (micron)')
-    plt.ylabel('log Flux (erg/cm$^2$/s/A)')
+    plt.ylabel('log Flux (erg cm$^{-2}$ s$^{-1}$ A$^{-1}$)')
     plt.xlim(-1, 3.5)
     plt.ylim(-20, -12)
     plt.legend()
